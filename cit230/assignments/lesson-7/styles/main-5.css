@@ -13,7 +13,7 @@ nav ul li a:hover {}
 
 /* -------------------------------------------------------------------------------------------- Hamburger Test Code ----------------------------------------------------------------------------------------- */
 
-.hamburger { display: block; position: absolute;top: 2.0rem;right: 1.25rem; }
+.hamburger { position: absolute; top: 2.0rem; right: 1.25rem; }
 
 .navigation { list-style: none; padding-left: 0; }
 /*.navigation li { display: none; }*/
