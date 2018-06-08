@@ -6,7 +6,9 @@
     }
     /* hamburger button does not need to be shown in the medium on up views */
     nav ul {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
     section.forecast {
         display: block;
