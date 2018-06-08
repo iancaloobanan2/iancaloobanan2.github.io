@@ -1,0 +1,134 @@
+
+{
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    /* Declare the base font-family */
+}
+
+nav ul li a:hover {}
+
+/* -------------------------------------------------------------------------------------------- Hamburger Test Code ----------------------------------------------------------------------------------------- */
+
+.hamburger { display: block; position: absolute;top: 2.0rem;right: 1.25rem; }
+
+.navigation { list-style: none; padding-left: 0; }
+/*.navigation li { display: none; }*/
+
+
+/* ------------------------------------------------------------------------------------Hamburger test code end-------------------------------------------------------------------------------------------- */
+
+/* ------------------------------ HEADER ------------------------------ */
+
+
+
+h1.title {
+    text-align: center;
+}
+
+h3.subtitle {
+    text-align: center;
+    margin: -25px
+}
+
+header {
+    margin: 50px;
+}
+
+img.petrichorlogo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+/*    height: 15%;*/
+}
+
+
+/* ------------------------------ NAV ------------------------------ */
+
+ul {
+    font-family: 'Cardo', serif;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*     overflow: hidden;*/
+    background-color: #333;
+    /*    height: 50px;*/
+    font-size: 20px;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* ------------------------------ MAIN ------------------------------ */
+
+main {
+    margin: 25px;
+}
+
+main figure {
+    margin: 0 0 .2rem 0%;
+    width: 96%;
+}
+
+section.forecast {
+    display: none;
+}
+
+
+table tr td {
+    border: 1px solid black;
+}
+
+img.sunnyicon {
+    width: 13%;
+/*    float: left;*/
+    display: flex;
+    justify-content: flex-start;
+    margin: 25px;
+}
+
+img.sunnyweather {
+    width: 30%;
+
+}
+
+/*
+img.banner {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+*/
+
+h1, h2, h3 {
+    font-family: 'Cardo', serif;
+}
+
+
+
+/* ~~~~~~~~~~~~~~~ section ~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~ article ~~~~~~~~~~~~~~~ */
+
+/* ------------------------------ FOOTER ------------------------------ */
+
+footer {
+    background-color: #003D5B;
+    color: white;
+    text-align: center;
+    height: 100%;
+}
