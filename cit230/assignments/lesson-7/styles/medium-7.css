@@ -5,36 +5,11 @@
         display: none;
     }
     /* hamburger button does not need to be shown in the medium on up views */
+    nav ul {
+        display: block;
+    }
     section.forecast {
         display: block;
     }
     /* show the 10-day forecast with the medium view and up */
-}
-
-/*
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-*/
-
-/*
-li {
-    float: none;
-}
-
-li {
-    display: inline;
-}
-*/
-
-/*
-.hamburger {
-    display: none;
-}
-*/
-
-nav ul {
-    display: block;
 }

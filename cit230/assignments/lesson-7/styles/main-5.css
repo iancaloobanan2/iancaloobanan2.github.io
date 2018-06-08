@@ -9,13 +9,13 @@ body {
     /* Declare the base font-family */
 }
 
-nav ul li a:hover {}
+/*nav ul li a:hover {}*/
 
 /* -------------------------------------------------------------------------------------------- Hamburger Test Code ----------------------------------------------------------------------------------------- */
 
-.hamburger { position: absolute; top: 2.0rem; right: 1.25rem; }
+/*.hamburger { position: absolute; top: 2.0rem; right: 1.25rem; }*/
 
-.navigation { list-style: none; padding-left: 0; }
+/*.navigation { list-style: none; padding-left: 0; }*/
 /*.navigation li { display: none; }*/
 
 
@@ -49,15 +49,16 @@ img.petrichorlogo {
 
 /* ------------------------------ NAV ------------------------------ */
 
+/*
 ul {
     font-family: 'Cardo', serif;
     text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /*     overflow: hidden;*/
+         overflow: hidden;
     background-color: #333;
-    /*    height: 50px;*/
+        height: 50px;
     font-size: 20px;
 }
 
@@ -71,6 +72,7 @@ li a {
 li a:hover {
     background-color: #111;
 }
+*/
 
 /* ------------------------------ MAIN ------------------------------ */
 
@@ -132,3 +134,9 @@ footer {
     text-align: center;
     height: 100%;
 }
+
+
+nav ul {
+    display: none;
+}
+

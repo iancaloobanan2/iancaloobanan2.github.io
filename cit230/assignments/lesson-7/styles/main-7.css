@@ -1,0 +1,147 @@
+/* Delete these CSS comments after reading. */
+
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    /* Declare the base font-family */
+}
+
+header,
+nav,
+main,
+footer {
+    /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+    /*    max-width: ______; */
+    /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+/* ------------------------------ HEADER ------------------------------ */
+
+header {
+    margin: 50px;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+}
+
+header h3 {
+    display: flex;
+    justify-content: center;
+    margin: -25px;
+}
+
+header img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+/*header .subheading {}*/
+
+/* ------------------------------ NAV ------------------------------ */
+
+nav {}
+
+nav button {}
+
+nav ul {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+nav ul li.active a {}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* ------------------------------ MAIN ------------------------------ */
+
+main {
+    margin: 25px;
+}
+
+main h2 {}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+main figure img {}
+
+table tr td {
+    border: 1px solid black;
+}
+
+
+main img.sunnyweather {
+    width: 40%;
+    display: flex;
+    margin: 25px;
+}
+
+main img.sunnyicon {
+    width: 13%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexItem {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.caption {
+    padding: 15px;
+    text-align: center;
+}
+
+.flexItem:hover {
+    box-shadow: 5px 5px 10px gray;
+}
+
+/* ------------------------------ FOOTER ------------------------------ */
+
+footer {
+    background-color: #003D5B;
+    color: white;
+    text-align: center;
+}
