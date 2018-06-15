@@ -1,0 +1,42 @@
+table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 20px 20px 50px grey;
+}
+tr, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.acme {
+    background-color: #7fb9c2;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.firstRow {
+    background-color: #628ca6;
+    color: white;
+}
+
+.august, .october, .blackFriday {
+    background-color: #e7f0ed;
+}
+
+.september, .november, .december {
+    background-color: #e7ffed;
+}
+
+.sevenK {
+    background-color: #7fb9c2;
+}
+
+tfoot {
+    background-color: #7fb9c2;
+}
+
+foot {
+    font-size: 5px;
+}
